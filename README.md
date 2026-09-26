@@ -170,9 +170,4 @@ None of these touch the **state machine, evidence accumulator, lens
 definitions, or suppression logic** — the part graded most heavily — which
 matches the midterm report as proposed and is fully tested.
 
-## Team
 
-- **[you]** — core pipeline, state machine, evidence/suppression logic, agents, evaluation, docs.
-- **[teammate]** — synthetic dataset expansion (`data/profiles/patients.json`), guideline corpus
-  (`data/guidelines/`), testing/QA pass, and reviewing the untested Streamlit/FastAPI/Docker pieces
-  locally before the demo.
