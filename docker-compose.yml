@@ -1,0 +1,20 @@
+# *** UNTESTED *** see Dockerfile's header comment — never built or run here.
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    command: ["uvicorn", "vigil.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    volumes:
+      - ./data:/app/data
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    command: ["streamlit", "run", "src/vigil/ui/dashboard.py", "--server.address", "0.0.0.0"]
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - api

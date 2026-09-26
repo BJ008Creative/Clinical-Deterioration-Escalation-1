@@ -1,0 +1,38 @@
+{
+  "baseline (current config)": {
+    "sensitivity": 1.0,
+    "false_alert_rate_per_24h": 0.6,
+    "duplicate_suppression_rate": 0.4340425531914894,
+    "total_alerts_on_deterioration_cohort": 133
+  },
+  "no_coherence_gate (K_MIN_COHERENT=1)": {
+    "sensitivity": 1.0,
+    "false_alert_rate_per_24h": 0.6,
+    "duplicate_suppression_rate": 0.4578313253012048,
+    "total_alerts_on_deterioration_cohort": 135
+  },
+  "no_persistence_gate (P_MIN=0)": {
+    "sensitivity": 1.0,
+    "false_alert_rate_per_24h": 0.6,
+    "duplicate_suppression_rate": 0.4340425531914894,
+    "total_alerts_on_deterioration_cohort": 133
+  },
+  "no_suppression (bar disabled)": {
+    "sensitivity": 1.0,
+    "false_alert_rate_per_24h": 93.6,
+    "duplicate_suppression_rate": 0.0,
+    "total_alerts_on_deterioration_cohort": 235
+  },
+  "no_cold_start (population prior only)": {
+    "sensitivity": 1.0,
+    "false_alert_rate_per_24h": 0.6,
+    "duplicate_suppression_rate": 0.4087301587301587,
+    "total_alerts_on_deterioration_cohort": 149
+  },
+  "faster_escalation (lower THETA_CAND, shorter window)": {
+    "sensitivity": 1.0,
+    "false_alert_rate_per_24h": 0.6,
+    "duplicate_suppression_rate": 0.4340425531914894,
+    "total_alerts_on_deterioration_cohort": 133
+  }
+}

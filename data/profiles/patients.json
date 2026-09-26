@@ -1,0 +1,57 @@
+[
+  {
+    "patient_id": "P-001",
+    "age": 71,
+    "sex": "F",
+    "history": ["COPD", "type 2 diabetes"],
+    "medications": ["salbutamol", "metformin", "bisoprolol"],
+    "recent_labs": {"lactate_mmol_L": 1.9, "wbc_10e9_L": 13.2, "creatinine_umol_L": 98},
+    "procedures": ["appendectomy 2 days ago"],
+    "spo2_target_scale": 2,
+    "scenario": "multi_parameter_deterioration"
+  },
+  {
+    "patient_id": "P-002",
+    "age": 45,
+    "sex": "M",
+    "history": [],
+    "medications": [],
+    "recent_labs": {},
+    "procedures": [],
+    "spo2_target_scale": 1,
+    "scenario": "stable"
+  },
+  {
+    "patient_id": "P-003",
+    "age": 58,
+    "sex": "M",
+    "history": ["hypertension"],
+    "medications": ["amlodipine"],
+    "recent_labs": {},
+    "procedures": [],
+    "spo2_target_scale": 1,
+    "scenario": "transient_spike"
+  },
+  {
+    "patient_id": "P-004",
+    "age": 66,
+    "sex": "F",
+    "history": ["post-op day 1, hip replacement"],
+    "medications": ["paracetamol"],
+    "recent_labs": {},
+    "procedures": ["hip replacement 1 day ago"],
+    "spo2_target_scale": 1,
+    "scenario": "motion_artefact"
+  },
+  {
+    "patient_id": "P-005",
+    "age": 39,
+    "sex": "F",
+    "history": [],
+    "medications": [],
+    "recent_labs": {},
+    "procedures": [],
+    "spo2_target_scale": 1,
+    "scenario": "recovery"
+  }
+]

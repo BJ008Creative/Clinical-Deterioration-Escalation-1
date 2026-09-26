@@ -1,0 +1,39 @@
+{
+  "cohort_size": 54,
+  "detection_sensitivity": {
+    "VIGIL": 0.9666666666666667,
+    "B1": 0.9666666666666667,
+    "B2": 0.8
+  },
+  "false_alert_rate_per_patient_per_24h": {
+    "VIGIL": 34.285714285714285,
+    "B1": 131.42857142857144,
+    "B2": 20.0
+  },
+  "false_alert_rate_per_patient_per_24h_CAVEAT": "The numbers above are extrapolated from ~20-26-simulated-minute scenarios (~70x scale-up to 24h) and should not be read as a real clinical rate -- see false_alert_rate_realistic_24h below for a rate computed on an actual simulated 24h day.",
+  "false_alert_rate_realistic_24h": {
+    "VIGIL": 0.125,
+    "B1": 2.0,
+    "B2": 0.25
+  },
+  "total_alerts_fired": {
+    "VIGIL": 203,
+    "B1": 258,
+    "B2": 218
+  },
+  "alert_reduction_vs_B1": 0.2131782945736434,
+  "alert_reduction_vs_B2": 0.06880733944954129,
+  "duplicate_suppression_rate_VIGIL": 0.43137254901960786,
+  "lead_time_seconds": {
+    "VIGIL": 246.20689655172413,
+    "B1": 308.2758620689655,
+    "B2": 250.0
+  },
+  "prioritisation_quality": {
+    "NDCG@5": 0.6794695986578204,
+    "precision@5": 0.6857142857142857
+  },
+  "explanation_grounding_rate": 1.0,
+  "audit_completeness_rate": 1.0,
+  "feedback_handling_rate": 1.0
+}
